@@ -1,8 +1,8 @@
 # firefox-cookie
 
-[![Build Status](https://img.shields.io/badge/build-passing-success.svg)](https://img.shields.io/badge/build-passing-success.svg)
+[![Build Status](https://api.travis-ci.com/arshadkazmi42/firefox-cookie.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/firefox-cookie)
 
-Node Cookie Manager for Chrome, read / write cookie from sqlite db
+Node Cookie Manager for Firefox, read / write cookie from sqlite db
 
 ## Install
 
