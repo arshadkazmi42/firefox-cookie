@@ -1,0 +1,53 @@
+{
+  "name": "moz_cookies",
+  "foreign_key": "moz_cookies_id",
+  "join_key": "moz_cookies",
+  "columns": [
+    {
+      "name": "baseDomain"
+    },
+    {
+      "name": "originAttributes",
+      "defaultValue": ""
+    },
+    {
+      "name": "name"
+    },
+    {
+      "name": "value",
+      "defaultValue": ""
+    },
+    {
+      "name": "host"
+    },
+    {
+      "name": "path"
+    },
+    {
+      "name": "expiry"
+    },
+    {
+      "name": "lastAccessed"      
+    },
+    {
+      "name": "creationTime"
+    },
+    {
+      "name": "isSecure",
+      "defaultValue": 0
+    },
+    {
+      "name": "isHttpOnly",
+      "defaultValue": 0
+    },
+    {
+      "name": "inBrowserElement",
+      "defaultValue": 0
+    },
+    {
+      "name": "sameSite",
+      "defaultValue": 0
+    }
+  ]
+}
+
