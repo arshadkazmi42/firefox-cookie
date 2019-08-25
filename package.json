@@ -1,0 +1,48 @@
+{
+  "name": "firefox-cookie",
+  "version": "1.0.1",
+  "description": "Node Firefox Cookie Manager",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "node_modules/mocha/bin/mocha tests/test*.js"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "cookie.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshadkazmi42/firefox-cookie.git"
+  },
+  "keywords": [
+    "node",
+    "cookie-manager",
+    "firefox-cookie",
+    "firefox-cookie-manager",
+    "firefox",
+    "sqlite"
+  ],
+  "author": "Arshad Kazmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arshadkazmi42/firefox-cookie/issues"
+  },
+  "homepage": "https://github.com/arshadkazmi42/firefox-cookie#readme",
+  "dependencies": {
+    "firefox-cookie-path": "^1.0.1",
+    "genql": "^1.0.4",
+    "sqlite3-promisify": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^5.2.0"
+  }
+}
