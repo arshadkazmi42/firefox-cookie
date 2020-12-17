@@ -9,7 +9,7 @@ function Firefox(path) {
   this.tableName = CONSTANTS['TABLE_NAME'];
   this.cookies = require(CONSTANTS['MODEL_PATH']);
   this.fields =  SelectFields.get(this.cookies);
-  this.sqliteCrud = new SQLiteCrud(path || FirefoxCookiePath());
+  this.sqliteCrud = new SQLiteCrud(FirefoxCookiePath(path) || FirefoxCookiePath());
 }
 
 
