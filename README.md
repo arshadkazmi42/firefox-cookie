@@ -14,8 +14,13 @@ npm i firefox-cookie
 
 ```javascript
 
+// Search for the "default" profile in Firefox implicitly https://support.mozilla.org/gl/questions/1264072
 const FirefoxCookie = require('firefox-cookie');
 const FFCookie = new FirefoxCookie();
+
+// Search for the "default-release" new profile in Firefox explicitly (or any other profile you give as parameter)
+const FirefoxCookie = require('firefox-cookie');
+const FFCookie = new FirefoxCookie("default-release");
 
 // Reading cookie
 const cookie = await FFCookie.getCookie('arshad.com');
