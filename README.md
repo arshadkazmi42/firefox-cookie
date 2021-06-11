@@ -1,6 +1,6 @@
 # firefox-cookie
 
-[![Build Status](https://api.travis-ci.com/arshadkazmi42/firefox-cookie.svg?branch=master)](https://api.travis-ci.com/arshadkazmi42/firefox-cookie)
+[![Build](https://github.com/arshadkazmi42/firefox-cookie/actions/workflows/nodejs.yml/badge.svg)](https://github.com/arshadkazmi42/firefox-cookie/actions/workflows/nodejs.yml)
 
 Node Cookie Manager for Firefox, read / write cookie from sqlite db
 
