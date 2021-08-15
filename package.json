@@ -1,6 +1,6 @@
 {
   "name": "firefox-cookie",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node Firefox Cookie Manager",
   "main": "index.js",
   "directories": {
